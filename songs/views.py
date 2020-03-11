@@ -1,11 +1,12 @@
 from django.shortcuts import render
-
-# Create your views here.
-from rest_framework import generics
 from .models import Songs
 from .serializers import SongsSerializer
+from rest_framework import viewsets
+from rest_framework.authentication import TokenAuthentication
+from rest_framework.permissions import IsAuthenticated
 
-
-class ListSongsView(generics.ListAPIView):
+class ListSongsView(viewsets.ModelViewSet):
     queryset = Songs.objects.all()
     serializer_class = SongsSerializer
+    authentication_classes = (TokenAuthentication, )
+    permission_classes = (IsAuthenticated,)

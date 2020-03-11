@@ -1,8 +1,11 @@
+from django.urls import path, include
+from rest_framework import routers
+from . import views
 
-from django.urls import path
-from .views import ListSongsView
-
+router = routers.DefaultRouter()
+router.register('Songs', views.ListSongsView)
 
 urlpatterns = [
-    path('songs/', ListSongsView.as_view(), name="songs-all")
+    path('', include(router.urls))
+    #path('', ListSongsView.as_view(), name="songs-all"),
 ]

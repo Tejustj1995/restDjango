@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85f12955-ce3e-4fba-a7c2-db32d6149d81" name="Default Changelist" comment="" />
+    <list default="true" id="85f12955-ce3e-4fba-a7c2-db32d6149d81" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/music/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/music/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/songs/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/songs/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/songs/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/songs/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/songs/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/songs/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/songs/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/songs/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/songs/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/songs/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +25,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1XhFTnkC7U9W4i0uHPdcDJxOKkF" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,7 +36,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Trellissoft/LeaveManagementSystem" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/djangopro/nestedexample" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -38,10 +53,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="140" key="FileChooserDialogImpl" timestamp="1581508500979">
+    <state x="463" y="140" key="FileChooserDialogImpl" timestamp="1582521555481">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="463" y="140" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1581508500979" />
+    <state x="463" y="140" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1582521555481" />
     <state x="0" y="0" width="737" height="768" key="find.popup" timestamp="1581490772321">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
